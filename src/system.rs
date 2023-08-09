@@ -3,6 +3,10 @@ use {
     cstr_core::CString,
 };
 
+use alloc::{string::String, vec, vec::Vec};
+use core::ffi::CStr;
+use core::convert::TryInto;
+
 use crankstart_sys::ctypes::c_int;
 use core::mem;
 
