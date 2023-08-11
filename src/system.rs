@@ -1,10 +1,10 @@
 use {
     crate::pd_func_caller, alloc::format, anyhow::Error, core::ptr, crankstart_sys::ctypes::c_void,
     cstr_core::CString,
+    cstr_core::CStr
 };
 
 use alloc::{string::String, vec, vec::Vec};
-use core::ffi::CStr;
 use core::convert::TryInto;
 
 use crankstart_sys::ctypes::c_int;
